@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    margin-top: 3em;
+    z-index: 10;
+    position: absolute;
+
+    h4 {
+        font-family: 'Viaoda Libre', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-size: 2em;
+        font-weight: 300;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .header {
+        margin-top: 2em;
+        h4 {
+            font-size: 1.3em;
+        }
+    }
+
+}

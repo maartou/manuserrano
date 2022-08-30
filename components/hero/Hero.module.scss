@@ -1,0 +1,141 @@
+$primary: #fc40ba;
+$transition: all 400ms ease;
+
+.hero {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-left: 1em;
+
+  a {
+    width: max-content;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: $transition;
+    &:hover {
+      color: $primary;
+      margin-left: 1rem;
+    }
+  }
+}
+
+.titles {
+  h1 {
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    span {
+      color: $primary;
+    }
+  }
+
+  .cta {
+    margin-top: 5em;
+
+    a {
+      color: $primary;
+      border: 2px solid $primary;
+      padding: 1.5em 5em;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 1.1em;
+      border-radius: 8px;
+      transition: $transition;
+      &:hover {
+        background: $primary;
+        border-color: transparent;
+        color: white;
+      }
+    }
+  }
+}
+
+.foto {
+  width: 90%;
+}
+
+.socials {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+  .icon {
+    transition: $transition;
+    font-size: 2em;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+//Laptops
+@media screen and (max-width:1280px ){
+  .hero {
+    padding-top: 5rem;
+    font-size: 13px;
+  }
+
+  .foto {
+    width: 100%;
+  }
+
+
+  .titles {
+    font-size: 12px;
+    h1 {
+      font-size: 4em;
+    }
+  }
+}
+
+//Tablets
+@media screen and (max-width:768px ){
+  .navigation {
+    display: none;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .hero {
+    display: initial;
+  }
+
+  .container {
+    padding-top: 6rem;
+    gap: 2rem;
+    width: 90%;
+    grid-template-columns: 1fr;
+    place-items: initial;
+  }
+
+  .titles{
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
