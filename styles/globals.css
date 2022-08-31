@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Viaoda+Libre&display=swap");
 
 @font-face {
-  font-family: "Sigma";
-  src: url("../public/fonts/Sigma.ttf");
+  font-family: "Eu";
+  src: url("../public/fonts/EuphoriaScript.otf");
 }
 
 * {
@@ -25,13 +25,13 @@ body {
 }
 
 #firma {
-  font-family: "Sigma", sans-serif;
-  font-size: 1.2rem;
+  font-family: "Eu", sans-serif;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 @media all and (min-width: 1280px) {
   #firma {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
