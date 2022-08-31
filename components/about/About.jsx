@@ -20,7 +20,7 @@ const About = () => {
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, velit ipsum sunt cum deserunt repellat provident optio blanditiis sit ratione aperiam? Unde, similique ea! Deleniti vel pariatur animi quam excepturi distinctio a. Saepe libero distinctio blanditiis perspiciatis quos quidem eaque iure. <br/> <br/> Voluptate saepe nulla quia, cupiditate, tenetur excepturi cumque libero aspernatur aperiam officiis voluptas error corrupti, est quae inventore impedit magnam sint sequi quo qui doloremque dolore atque eos! Cumque ratione incidunt amet magni nulla numquam fugit, sed corrupti. Rem.
           </p>
-          <h4 id="firma">Manuela Serrano</h4>
+          <h4 id="firma">Manuela Serrano.</h4>
 
           <div className={style.socials}>
             <a

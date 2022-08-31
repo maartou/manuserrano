@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Viaoda+Libre&display=swap");
-
-@font-face {
-  font-family: "Eu";
-  src: url("../public/fonts/EuphoriaScript.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Outfit:wght@400;500;700&family=Viaoda+Libre&display=swap');
 
 * {
   margin: 0;
@@ -25,13 +20,13 @@ body {
 }
 
 #firma {
-  font-family: "Eu", sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.2rem;
   font-weight: 400;
 }
 
 @media all and (min-width: 1280px) {
   #firma {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
