@@ -14,7 +14,7 @@ const Hero = () => {
 
         <nav className={style.navigation}>
           <Link href="/"> Inicio </Link>
-          <Link href="/"> Sobre mi </Link>
+          <Link href="#about"> Sobre mi </Link>
           <Link href="/"> Videos </Link>
           <Link href="/"> Recaudacion </Link>
         </nav>
@@ -40,17 +40,16 @@ const Hero = () => {
         </div>
         
         <div className={style.socials}>
-          <a href="#">
-            {" "}
-            <AiOutlineInstagram className={style.icon} />{" "}
+          <a href="https://www.instagram.com/manuelaserranoc/"  target="_blank" rel="noreferrer">
+            <AiOutlineInstagram className={style.icon} />
           </a>
-          <a href="#">
-            {" "}
-            <AiOutlineYoutube className={style.icon} />{" "}
+
+          <a href="https://www.youtube.com/channel/UCK3zen35O3ZiOsBwqw9EjiQ/videos" target="_blank" rel="noreferrer">
+            <AiOutlineYoutube className={style.icon} />
           </a>
-          <a href="#">
-            {" "}
-            <FaTiktok className={style.icon} />{" "}
+
+          <a href="https://www.tiktok.com/@manuelaserranoc" target="_blank" rel="noreferrer">
+            <FaTiktok className={style.icon} />
           </a>
         </div>
       </section>

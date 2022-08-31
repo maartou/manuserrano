@@ -15,37 +15,36 @@ const About = () => {
         </div>
 
         <div className={style.content}>
-          <small>Cónoceme un poco más...</small>
+          <small id="about">Cónoceme un poco más...</small>
           <h2>El camino del sonido</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-            aliquam eveniet totam debitis atque, officia deleniti error culpa
-            explicabo reiciendis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, velit ipsum sunt cum deserunt repellat provident optio blanditiis sit ratione aperiam? Unde, similique ea! Deleniti vel pariatur animi quam excepturi distinctio a. Saepe libero distinctio blanditiis perspiciatis quos quidem eaque iure. <br/> <br/> Voluptate saepe nulla quia, cupiditate, tenetur excepturi cumque libero aspernatur aperiam officiis voluptas error corrupti, est quae inventore impedit magnam sint sequi quo qui doloremque dolore atque eos! Cumque ratione incidunt amet magni nulla numquam fugit, sed corrupti. Rem.
           </p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            laboriosam dignissimos molestiae nostrum, beatae voluptates totam
-            consequuntur obcaecati quo sapiente id vel tempora distinctio ut.
-          </p>
-          <br />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-            temporibus eos ratione deserunt illo dolor.
-          </p>
-          <h4>Firma</h4>
+          <h4>Manuela Serrano</h4>
+
           <div className={style.socials}>
-            <a href="#">
-              {" "}
-              <AiOutlineInstagram className={style.icon} />{" "}
+            <a
+              href="https://www.instagram.com/manuelaserranoc/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiOutlineInstagram className={style.icon} />
             </a>
-            <a href="#">
-              {" "}
-              <AiOutlineYoutube className={style.icon} />{" "}
+
+            <a
+              href="https://www.youtube.com/channel/UCK3zen35O3ZiOsBwqw9EjiQ/videos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiOutlineYoutube className={style.icon} />
             </a>
-            <a href="#">
-              {" "}
-              <FaTiktok className={style.icon} />{" "}
+
+            <a
+              href="https://www.tiktok.com/@manuelaserranoc"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTiktok className={style.icon} />
             </a>
           </div>
         </div>

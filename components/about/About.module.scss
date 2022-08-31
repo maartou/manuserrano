@@ -1,8 +1,10 @@
 $secon: #8A2145;
+$primary: #fc40ba;
+$transition: all 400ms ease;
 
 .about_section {
     background: white;
-    padding: 3em 0;
+    margin: 3em 0;
     width: 100%;
     color: black;
 }
@@ -17,7 +19,6 @@ $secon: #8A2145;
 
 .foto {
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    padding: 2em;
     border-radius: 1em;
 
     img {
@@ -26,17 +27,28 @@ $secon: #8A2145;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+
     small {
-        font-size: .9em;
+        font-size: .9rem;
+        font-weight: 700;
     }
 
     h2 {
         color: $secon;
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     p {
-        font-size: 1em;
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: "Sigma";
     }
 }
 
@@ -45,9 +57,18 @@ $secon: #8A2145;
     align-items: center;
     gap: 1em;
 
-    .icon {
-        color: black;
-        font-size: 2.5em;
+    a {
+        display: flex;
+        color: $primary;
+        background: black;
+        font-size: 2rem;
+        padding: .8rem;
+        border-radius: 8px;
+        transition: $transition;
+        &:hover {
+            background: $primary;
+            color: black;
+        }
     }
 }
 
@@ -55,5 +76,27 @@ $secon: #8A2145;
 
     .container {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (min-width: 1280px) {
+
+    .container {
+        width: 75%;
+        place-items: center;
+    }
+
+    .content {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        h4 {
+            font-size:1.5rem;
+        }
     }
 }

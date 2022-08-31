@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Viaoda+Libre&display=swap");
 
+@font-face{
+  font-family: "Sigma";
+  src: url('../public/fonts/Sigma.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +22,4 @@ a {
 
 body {
   font-family: "Outfit", sans-serif;
-  background: black;
-  color: white;
 }
