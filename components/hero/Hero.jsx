@@ -10,47 +10,27 @@ import { FaTiktok } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <section className={style.hero}>
-
-        <nav className={style.navigation}>
-          <Link href="/"> Inicio </Link>
-          <Link href="#about"> Sobre mi </Link>
-          <Link href="/"> Videos </Link>
-          <Link href="/"> Recaudacion </Link>
-        </nav>
-
+      <section className={style.section}>
         <div className={style.container}>
 
-            <div className={style.titles}>
-              <h1>
-                Cumpliendo <br /> el sueño
-              </h1>
-              <h2>
-                Escucha mi historia a través de la música y acómpañame{" "}
-                <span> de camino al Berklee </span>{" "}
-              </h2>
-              <div className={style.cta}>
-                <Link href="/"> Escuchar </Link>
-              </div>
-            </div>
+          <nav className={style.nav}>
+            <Link href="/"> Sobre mi </Link>
+            <Link href="/"> Videos </Link>
+            <Link href="/"> Recaudaciones </Link>
+          </nav>
+
+          <div className={style.content}>
+            <h1>Cumpliendo el sueño</h1>
+            <h2>
+              Escucha mi historia a través de la música y acómpañame{" "}
+              <span>de camino al Berklee</span>
+            </h2>
+            <Link href="/">Escuchar</Link>
+          </div>
 
           <div className={style.foto}>
             <Image src={manu} alt="Manuela Serrano" />
           </div>
-        </div>
-        
-        <div className={style.socials}>
-          <a href="https://www.instagram.com/manuelaserranoc/"  target="_blank" rel="noreferrer">
-            <AiOutlineInstagram className={style.icon} />
-          </a>
-
-          <a href="https://www.youtube.com/channel/UCK3zen35O3ZiOsBwqw9EjiQ/videos" target="_blank" rel="noreferrer">
-            <AiOutlineYoutube className={style.icon} />
-          </a>
-
-          <a href="https://www.tiktok.com/@manuelaserranoc" target="_blank" rel="noreferrer">
-            <FaTiktok className={style.icon} />
-          </a>
         </div>
       </section>
     </>
