@@ -15,10 +15,29 @@ const About = () => {
         </div>
 
         <div className={style.content}>
-          <small id="about">Cónoceme un poco más...</small>
-          <h2>El camino del sonido</h2>
+          <small id="about">Conoce...</small>
+          <h2>Mi historia a través de la música</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, velit ipsum sunt cum deserunt repellat provident optio blanditiis sit ratione aperiam? Unde, similique ea! Deleniti vel pariatur animi quam excepturi distinctio a. Saepe libero distinctio blanditiis perspiciatis quos quidem eaque iure. <br/> <br/> Voluptate saepe nulla quia, cupiditate, tenetur excepturi cumque libero aspernatur aperiam officiis voluptas error corrupti, est quae inventore impedit magnam sint sequi quo qui doloremque dolore atque eos! Cumque ratione incidunt amet magni nulla numquam fugit, sed corrupti. Rem.
+            Soy Músico y Cantautora venezolana, Especialista en Música Moderna y
+            Productora Musical en formación. <br /> <br /> Inicié en este mundo
+            sólo como un hobby hasta que descubrí que es lo que más amo, desde
+            entonces he estudiado estética, historia, armonía, lenguaje musical
+            y también música contemporánea como el jazz, blues y pop latino que
+            es lo que más amo cantar. <br /> <br /> Fui aceptada en la
+            prestigiosa{" "}
+            <span>
+              {" "}
+              <a
+                href="https://www.berklee.edu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Berklee College of Music
+              </a>{" "}
+            </span>{" "}
+            para estudiar un Bachelor of Music para el semestre de Enero 2023 y
+            recibí una beca de $27,000 por mi talento y desempeño académico.{" "}
+            <br /> <br /> ¡Acompáñame en este camino!
           </p>
           <h4 id="firma">Manuela Serrano.</h4>
 

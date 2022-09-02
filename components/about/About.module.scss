@@ -32,7 +32,7 @@ $transition: all 400ms ease;
     gap: .8rem;
 
     small {
-        font-size: .9rem;
+        font-size: 1rem;
         font-weight: 700;
     }
 
@@ -42,7 +42,11 @@ $transition: all 400ms ease;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+
+    a {
+        color: $secon;
     }
 
 }
@@ -84,10 +88,6 @@ $transition: all 400ms ease;
     .content {
         h2 {
             font-size: 2.5rem;
-        }
-
-        p {
-            font-size: 1.1rem;
         }
 
         h4 {
