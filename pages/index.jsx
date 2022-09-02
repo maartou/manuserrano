@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 
+import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import About from "../components/about/About";
 
@@ -10,10 +10,9 @@ export default function Home() {
       <Head>
         <title>Manuela Serrano</title>
       </Head>
+      <Header/>
 
       <main>
-        <Hero />
-        <About />
       </main>
     </>
   );
