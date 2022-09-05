@@ -9,7 +9,7 @@ const Recaudaciones = () => {
     <section className={style.section}>
       <div className={style.container}>
         
-        <div className={style.gofound_container}>
+        <div className={style.gofound_container} id="recauda">
           <h3>Ayúdame a cumplir mi sueño</h3>
           <div className={style.foto}>
             <Image src={manu} alt="Manuela Serrano" />
