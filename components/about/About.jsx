@@ -5,6 +5,7 @@ import Image from "next/image";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
+import {FaSpotify} from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -64,6 +65,14 @@ const About = () => {
               rel="noreferrer"
             >
               <FaTiktok className={style.icon} />
+            </a>
+
+            <a
+              href="https://open.spotify.com/artist/74JgOac1eZaSz72Ga28U32"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaSpotify className={style.icon} />
             </a>
           </div>
         </div>

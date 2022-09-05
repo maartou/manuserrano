@@ -3,7 +3,7 @@ import style from "./Multimedia.module.scss";
 const Multimedia = () => {
   return (
     <section className={style.section}>
-      <h2>Videos recientes</h2>
+      <h2 id="videos">Videos recientes</h2>
 
       <div className={style.container}>
         <article className={style.item}>

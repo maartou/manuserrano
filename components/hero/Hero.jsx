@@ -14,8 +14,8 @@ const Hero = () => {
         <div className={style.container}>
 
           <nav className={style.nav}>
-            <Link href="/"> Sobre mi </Link>
-            <Link href="/"> Videos </Link>
+            <Link href="#about"> Sobre mi </Link>
+            <Link href="#videos"> Videos </Link>
             <Link href="/"> Recaudaciones </Link>
           </nav>
 
@@ -25,7 +25,7 @@ const Hero = () => {
               Escucha mi historia a través de la música y acómpañame{" "}
               <span>de camino al Berklee</span>
             </h2>
-            <Link href="/">Escuchar</Link>
+            <Link href="#videos">Escuchar</Link>
           </div>
 
           <div className={style.foto}>
