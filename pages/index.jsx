@@ -4,6 +4,7 @@ import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import About from "../components/about/About";
 import Multimedia from "../components/multimedia/Multimedia";
+import Recaudaciones from "../components/recaudaciones/Recaudaciones";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <About />
         <Multimedia />
+        <Recaudaciones />
       </main>
     </>
   );

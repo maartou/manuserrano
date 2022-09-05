@@ -80,6 +80,10 @@ $transition: all 400ms ease;
 
 @media all and (min-width: 1280px) {
 
+    .about_section {
+        padding: 3rem 0;
+    }
+
     .container {
         width: 75%;
         place-items: center;
