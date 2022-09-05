@@ -11,7 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Manuela Serrano</title>
+        <title>Manuela Serrano | De camino al Berklee</title>
+        <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
       </Head>
       <Header/>
 

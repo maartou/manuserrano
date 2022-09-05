@@ -4,9 +4,22 @@ $transition: all 400ms ease;
 
 .about_section {
     background: white;
-    margin: 3em 0;
+    padding: 3em 0;
     width: 100%;
     color: black;
+    position: relative;
+}
+
+.brillo1 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.brillo2 {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
 }
 
 .container {
@@ -75,6 +88,22 @@ $transition: all 400ms ease;
 
     .container {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .brillo1, .brillo2 {
+        img {
+            width: 7rem !important;
+        }
+    }
+
+    .brillo1 {
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .brillo2 {
+        bottom: 1rem;
+        right: 1rem;
     }
 }
 

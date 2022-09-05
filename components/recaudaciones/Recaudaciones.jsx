@@ -1,15 +1,18 @@
 import style from "./Recaudaciones.module.scss";
 import Image from "next/image";
 import manu from "../../public/img/manu_about.jpg";
+import brillo from "../../public/img/brillos.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
-
 
 const Recaudaciones = () => {
   return (
     <section className={style.section}>
+      <div className={style.brillo1}>
+        <Image src={brillo} alt="" />
+      </div>
+
       <div className={style.container}>
-        
-        <div className={style.gofound_container} id="recauda">
+        <div className={style.gofound_container} id="recaudaciones">
           <h3>Ayúdame a cumplir mi sueño</h3>
           <div className={style.foto}>
             <Image src={manu} alt="Manuela Serrano" />
@@ -41,6 +44,10 @@ const Recaudaciones = () => {
             <a href="#"> Contacto 3 </a>
           </div>
         </div>
+      </div>
+
+      <div className={style.brillo2}>
+        <Image src={brillo} alt="" />
       </div>
     </section>
   );

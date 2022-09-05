@@ -7,16 +7,23 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
 import {FaSpotify} from 'react-icons/fa';
 
+import brillo from '../../public/img/brillos.svg';
+
 const About = () => {
   return (
     <section className={style.about_section}>
+
+      <div className={style.brillo1}>
+        <Image src={brillo} alt="" />
+      </div>
+
       <div className={style.container}>
         <div className={style.foto}>
           <Image src={manu} alt="Manuela Serrano" />
         </div>
 
         <div className={style.content}>
-          <small id="about">Conoce...</small>
+          <small id="sobre-mi">Conoce...</small>
           <h2>Mi historia a través de la música</h2>
           <p>
             Soy Músico y Cantautora venezolana, Especialista en Música Moderna y
@@ -76,6 +83,10 @@ const About = () => {
             </a>
           </div>
         </div>
+      </div>
+
+      <div className={style.brillo2}>
+        <Image src={brillo} alt="" />
       </div>
     </section>
   );
