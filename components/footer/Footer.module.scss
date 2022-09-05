@@ -1,0 +1,52 @@
+$secon: #8A2145;
+$primary: #fc40ba;
+$transition: all 400ms ease;
+
+.footer {
+    background: black;
+    color: white;
+    padding: 2rem 0;
+
+    h4 {
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 3em;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: end;
+        padding-right: 1rem;
+        a {
+            color: $primary;
+        }
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin-bottom: 3em;
+
+    a {
+        font-size: 1.3em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        transition: $transition;
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+@media screen and (min-width: 1204px) {
+
+    .footer {
+        p {
+            font-size: 1.3em;
+        }
+    }
+
+}

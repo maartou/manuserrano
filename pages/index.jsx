@@ -6,6 +6,7 @@ import About from "../components/about/About";
 import Multimedia from "../components/multimedia/Multimedia";
 import Recaudaciones from "../components/recaudaciones/Recaudaciones";
 import Counter from "../components/counter/Counter";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <title>Manuela Serrano | De camino al Berklee</title>
         <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
       </Head>
+
       <Header/>
 
       <main>
@@ -23,6 +25,8 @@ export default function Home() {
         <Recaudaciones />
         <Counter />
       </main>
+
+      <Footer />
     </>
   );
 }
