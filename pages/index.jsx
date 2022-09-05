@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import About from "../components/about/About";
+import Multimedia from "../components/multimedia/Multimedia";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Multimedia />
       </main>
     </>
   );
