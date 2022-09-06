@@ -1,6 +1,6 @@
 import style from "./Recaudaciones.module.scss";
 import Image from "next/image";
-import manu from "../../public/img/manu_about.jpg";
+import manu from "../../public/img/manu_cantando.jpg";
 import brillo from "../../public/img/brillos.svg";
 import { AiOutlineInstagram } from "react-icons/ai";
 
@@ -25,10 +25,11 @@ const Recaudaciones = () => {
             Donar
           </a>
           <p>
-            Descripción con un poco de texto Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Cum expedita nemo voluptate sapiente
-            totam harum, suscipit culpa omnis dicta dolor impedit blanditiis
-            officiis soluta magnam officia ut in delectus. Similique!
+            Solo los grandes músicos estudian en Berklee College of Music, y
+            como muestra de ello afortunadamente fui becada con más del 50%
+            ($27.000) del valor de la matrícula, pero aún me falta el resto.
+            Puedes apoyarme en este camino haciendo una donación a través de mi
+            GoFund Me. <br /> <br /> ¡Cada dólar cuenta!
           </p>
         </div>
 
@@ -39,9 +40,15 @@ const Recaudaciones = () => {
           </div>
 
           <div className={style.permalinks}>
-            <a href="#"> Contacto 1 </a>
-            <a href="#"> Contacto 2 </a>
-            <a href="#"> Contacto 3 </a>
+            <a href="mailto: manuelaserranoc@gmail.com"> Envíame un Email</a>
+            <a
+              href="https://www.instagram.com/manuelaserranoc/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Comunícate a través de mis redes sociales
+            </a>
           </div>
         </div>
       </div>
