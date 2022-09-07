@@ -14,6 +14,8 @@ export default function Home() {
       <Head>
         <title>Manuela Serrano | De camino al Berklee</title>
         <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+        <meta name="description" content="Hola soy Manu! Músico y Cantautora venezolana: Especialista en Música Moderna y Productora Musical en formación, escucha mi historia y acómpañame de camino al Berklee." />
+        <meta name="keywords" content="Manuela Serrano, Manuela Serrano Berklee, De camino al Berklee, Berklee college of music, Berklee, Manuela, Manu" />
       </Head>
 
       <Header/>

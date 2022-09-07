@@ -35,8 +35,13 @@ const Recaudaciones = () => {
 
         <div className={style.contact}>
           <h3>Para contrataciones</h3>
-          <div className={style.video}>
-            <p>Inserte video preview aquí</p>
+          <div className={style.video_container}>
+            <iframe className={style.video}
+              src="https://www.youtube.com/embed/5IMfRX7MEwI"
+              title="YouTube video player"
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
           </div>
 
           <div className={style.permalinks}>
