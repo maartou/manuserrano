@@ -15,7 +15,7 @@ const Recaudaciones = () => {
         <div className={style.gofound_container} id="recaudaciones">
           <h3>Ayúdame a cumplir mi sueño</h3>
           <div className={style.foto}>
-            <Image src={manu} alt="Manuela Serrano" />
+            <Image src={manu} alt="Manuela Serrano" placeholder="blur" />
           </div>
           <a
             href="https://www.gofundme.com/f/5z27ck-camino-a-berklee-college-of-music"

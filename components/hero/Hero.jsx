@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
 
           <div className={style.foto}>
-            <Image src={manu} alt="Manuela Serrano" />
+            <Image src={manu} alt="Manuela Serrano" placeholder="blur" />
           </div>
         </div>
       </section>

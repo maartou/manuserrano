@@ -19,7 +19,7 @@ const About = () => {
 
       <div className={style.container}>
         <div className={style.foto}>
-          <Image src={manu} alt="Manuela Serrano" />
+          <Image src={manu} alt="Manuela Serrano" placeholder="blur" />
         </div>
 
         <div className={style.content}>
